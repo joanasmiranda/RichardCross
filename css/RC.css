@@ -6,7 +6,7 @@ body{
 }
 
 header {
-	background-color: #B8290A;
+	background-color: black;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 5px
@@ -14,24 +14,42 @@ header {
 }
 
 header h1{
-	color: white;
+	color: yellow;
 }
 
 header img{
 	border-radius: 300px;
 	width: 300px;
-	border: 10px solid white;
+	border: 10px solid yellow;
+}
+
+#img1{border-radius: 300px;
+	width: 200px;
+	border: 7px solid yellow;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#img2{border-radius: 500px;
+	width: 500px;
+	border: 7px solid yellow;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
 }
 
 h1{
 	font-family: 'Bangers', cursive;
 	font-size: 70px;
-}
+	}
 h2 {
 	font-family: 'Bangers', cursive;
 	font-size: 40px;
 	margin-top: 50px;
 	margin-bottom: 5px;
+
 }
 
 
@@ -41,28 +59,58 @@ main{
 	padding: 30px;
 }
 
+
 a{
-	color: black;
+	color: purple;
+	line-height: 30px;
 }
 
 a:hover{
 	opacity: .5;
 }
 
+
+ul.two{ line-height: 50px;
+	color: purple;
+	font-family: 'Bangers', cursive;
+}
+
+.first {
+	color: purple;
+	font-family: 'Bangers', cursive;
+	font-size: 22px;
+}
+.second {
+	color: purple;
+	font-family: 'Bangers', cursive;
+	font-size: 22px;
+}
+.third {
+	color: purple;
+	font-family: 'Bangers', cursive;
+	font-size: 22px;
+}
+.forth{
+	color: purple;
+	font-family: 'Bangers', cursive;
+	font-size: 22px;
+}
+
+
 footer{
 	margin: 0;
 	font-size: 15px;
-	background-color: #B8290A;
-	color: white;
+	background-color: black;
+	color: yellow;
 	padding: 15px;
 	text-align: center;
 }
 
-footer a {
-	color: white;
+footer b {
+	color: yellow;
 }
 
-footer a:hover {
+footer b:hover {
 	opacity: .5;
 }
 
@@ -71,4 +119,5 @@ p.caption{
 	font-size: 15px;
 	font-style: italic;
 	margin-top: 0;
+	text-align: center;
 }
